@@ -1,12 +1,14 @@
-import { Button } from './components/Button'
+import { TextInput } from './components/TextInput'
 import './styles/global.css'
 
 export function App() {
   return (
     <>
-      <h1 className="font-bold text-2xl text-violet-500">Hello</h1>
-    
-      <Button children="Um botão"/>
+      <div className='max-w-lg bg-black'>
+        <h1 className="font-bold text-2xl text-white">Hello</h1>
+      
+        <TextInput/>
+      </div>
 
     </>
   )
